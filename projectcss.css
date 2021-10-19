@@ -97,6 +97,45 @@ border: 2px solid black;
   max-height: 1500px;
 }
 
+.main {
+  padding-top:50px;
+  margin:0 auto;
+  display:flex;
+  max-width:940px;
+  max-height:1000px
+  }
+  
+  .car1{
+  background-color:#067d68;
+  margin-left:140px;
+  
+  border-radius:5px;
+  border: 2px solid black;
+  align-content:center;
+  }
+
+  .toptext{
+    text-align:center;
+    font-size:35px;
+    background-color:#dbfe01;
+    color:#282828;
+    font-family: 'Sora', sans-serif;
+    padding:7 30 7 30;
+
+    }
+    
+    .bottext{
+    font-weight:bold;
+    text-align:center;
+    font-size:35px;
+    font:verdana;
+    }
+
+    .mid{
+      font-size:35px;
+      font-family: 'Georama', sans-serif;
+
+    }
 
 
 
