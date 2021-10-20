@@ -3,6 +3,7 @@
 margin:0 auto;
 background-color:#067d68;
 display:flex;
+
 }
 
 body {
@@ -26,6 +27,7 @@ body {
   font-size:32px;
   transition-duration: 0.4s;
   cursor: pointer;
+  text-decoration: none;
   }
 
 .bt:hover{
@@ -101,14 +103,13 @@ border: 2px solid black;
   padding-top:50px;
   margin:0 auto;
   display:flex;
-  max-width:940px;
+  padding-left:370px;
   max-height:1000px
   }
   
   .car1{
   background-color:#067d68;
-  margin-left:140px;
-  
+  margin-left:120px;
   border-radius:5px;
   border: 2px solid black;
   align-content:center;
@@ -125,18 +126,69 @@ border: 2px solid black;
     }
     
     .bottext{
-    font-weight:bold;
+    font-family: 'Sora', sans-serif;
     text-align:center;
-    font-size:35px;
-    font:verdana;
+    font-size:33px;
+    
     }
 
     .mid{
+      color:aliceblue;
       font-size:35px;
-      font-family: 'Georama', sans-serif;
-
+      font-family: 'Cabin', sans-serif;
+      
     }
+    .mid2{
+      display: flex;
+      padding:20 20 0 20;
+    }
+    .projects{
+      display:flex;
+    }
+.proj{
+font-family: 'Sora', sans-serif;
+font-size:50px;
+background-color:#e67d84;
+max-width:400px;
+padding:15px;
+border: 2px solid black;
+}
 
+.projec{
+padding:300 0 200 0;
+max-width:900px;
+margin:0 auto;
+}
+
+.cards{
+padding:40 60 0 0;
+  
+}
+
+.cont{
+  font-family: 'Sora', sans-serif;
+  font-size:50px;
+  background-color:white;
+  max-width:300px;
+  padding:15px;
+  border: 2px solid black;
+  }
+  
+  .contac{
+  padding:200 0 300 350;
+  max-width:900px;
+  margin:0 auto;
+  }
+  .inst{
+    color:white;
+    display: flex;
+    font-size:35px;
+    font-family: 'Cabin', sans-serif;
+    padding:100 0 0 0;
+    
+  }
+
+  
 
 
 
